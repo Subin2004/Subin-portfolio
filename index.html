@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subin Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container header-container">
+            <div class="logo">
+                <a href="#"><span>S</span>UBIN</a>
+            </div>
+            <nav>
+                <ul class="side-menu">
+                    <li>
+                        <a class="active-link" href="#hero">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#skills">Skills</a>
+                        <a href="#contact">Contact</a>
+                        <i class="fas fa-times" onclick="close_menu()"></i>
+                    </li>
+                </ul> 
+            </nav>
+            <i class="fas fa-bars" id="menu-icon" onclick="open_menu()"></i>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="container grid">
+            <div class="hero-content col-6">
+                <h1>HI, I'm <span>SUBIN</span></h1>
+                <h4>Software Developer</h4>
+                <p>Explore my portfolio to learn about my skills, projects, and professional journey.</p>
+                <br>
+                <p>If you're interested in working together or just want to say hello, feel free to get in touch!</p>
+                <a href="#contact" class="btn">Get In Touch</a>
+            </div>
+            <div class="hero-image col-6">
+                <img src="subni01.jpg" class="floating">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-container">
+                <div class="about-image">
+                    <img src="subin02.jpg" alt="Subin">
+                </div>
+                <div class="about-content">
+                    <p>Hi! I'm a Computer Science graduate from Sree Narayana Guru College, currently living in the beautiful Palakkad district of Kerala, India. I'm passionate about continuous learning and always eager to explore new technologies, innovative ideas, and ways to grow both personally and professionally.</p>
+                    <p>In my free time, you'll often find me hitting the gym or working out — fitness is a big part of my lifestyle. I'm also deeply curious and enjoy diving into new concepts, whether it's in tech or beyond. I believe in staying updated and adaptable in this ever-evolving world.</p>
+                    
+                    <div class="tabs">
+                        <div class="tab active">Education</div>
+                        <div class="tab">Certification</div>
+                    </div>
+                    
+                    <div class="education-item">
+                        <div class="education-icon">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                        </div>
+                        <div>
+                            <h3>Bachelor of Science in Computer Science</h3>
+                            <p>2022 - 2025</p>
+                            <p>SREE NARAYANA GURU COLLEGE</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-container">
+                <div class="skills-card">
+                    <h3 class="skills-title">Technical Skills</h3>
+                    
+                    <div class="skill">
+                        <div class="skill-header">
+                            <span><i class="fa-brands fa-html5"></i>HTML</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="bar-container">
+                            <div class="bar-fill" style="--percent: 90%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill">
+                        <div class="skill-header">
+                            <span><i class="fa-brands fa-css3-alt"></i>CSS</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="bar-container">
+                            <div class="bar-fill" style="--percent: 80%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill">
+                        <div class="skill-header">
+                            <span><i class="fa-brands fa-js"></i>JavaScript</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="bar-container">
+                            <div class="bar-fill" style="--percent: 75%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill">
+                        <div class="skill-header">
+                            <span><i class="fa-brands fa-python"></i>Python</span>
+                            <span>65%</span>
+                        </div>
+                        <div class="bar-container">
+                            <div class="bar-fill" style="--percent: 65%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill">
+                        <div class="skill-header">
+                            <span><i class="fa-brands fa-react"></i>React</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="bar-container">
+                            <div class="bar-fill" style="--percent: 70%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill">
+                        <div class="skill-header">
+                            <span><i class="fa-solid fa-database"></i>SQL</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="bar-container">
+                            <div class="bar-fill" style="--percent: 60%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill">
+                        <div class="skill-header">
+                            <span><i class="fa-brands fa-git-alt"></i>Git</span>
+                            <span>65%</span>
+                        </div>
+                        <div class="bar-container">
+                            <div class="bar-fill" style="--percent: 65%"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-card">
+                    <h3 class="skills-title">Professional Skills</h3>
+                    
+                    <div class="radial-bars">
+                        <div class="radial-bar">
+                            <svg>
+                                <circle class="track" cx="70" cy="70" r="60"></circle>
+                                <circle class="fill" cx="70" cy="70" r="60" style="--offset: 37.7"></circle>
+                            </svg>
+                            <div class="percentage">90%</div>
+                            <div class="skill-label">Creativity</div>
+                        </div>
+                        
+                        <div class="radial-bar">
+                            <svg>
+                                <circle class="track" cx="70" cy="70" r="60"></circle>
+                                <circle class="fill" cx="70" cy="70" r="60" style="--offset: 132"></circle>
+                            </svg>
+                            <div class="percentage">65%</div>
+                            <div class="skill-label">Communication</div>
+                        </div>
+                        
+                        <div class="radial-bar">
+                            <svg>
+                                <circle class="track" cx="70" cy="70" r="60"></circle>
+                                <circle class="fill" cx="70" cy="70" r="60" style="--offset: 94.25"></circle>
+                            </svg>
+                            <div class="percentage">75%</div>
+                            <div class="skill-label">Problem Solving</div>
+                        </div>
+                        
+                        <div class="radial-bar">
+                            <svg>
+                                <circle class="track" cx="70" cy="70" r="60"></circle>
+                                <circle class="fill" cx="70" cy="70" r="60" style="--offset: 75.4"></circle>
+                            </svg>
+                            <div class="percentage">80%</div>
+                            <div class="skill-label">Teamwork</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>subin7306531070@gmail.com</span>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>7306531070</span>
+                    </div>
+                    
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    
+                    <a href="#" class="btn">Download CV</a>
+                </div>
+                
+                <div class="contact-form">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="copyright">
+                <p>Copyright ⓒ Subin. Made with <i class="fa-solid fa-heart"></i> by Easy Tutorials</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js">
+  
+    </script>
+</body>
+</html>
